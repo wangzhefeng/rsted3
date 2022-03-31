@@ -1,9 +1,23 @@
+========================================================
+说明
+========================================================
+此项目是从 [rsted](https://github.com/anru/rsted) 库直接修改的，
+将原来的代码修改为 Pytonn3 版本
+
+```bash
+$ 2to3 --output-dir=/path/to/rsted3 -W -n /path/to/rsted2
+```
+
+***************
+原来的 README
+***************
+
 Simple online editor for reStructuredText on Flask.
 
 Try it where: http://rst.ninjs.org/
 
 Getting setup
--------------
+===============
 
 Requirements for rsted:
 
@@ -17,10 +31,10 @@ installed by running the following (from within a virtual environment)::
 
 
 How to run
-----------
+===============
 
 Your Environment
-++++++++++++++++
+------------------
 From within your environment, just run::
 
     ./application.py
@@ -29,7 +43,7 @@ This will start a server on port 5001.  Just visit http://localhost:5001/ in
 your browser.
 
 Docker
-++++++
+------------------
 In a docker installed host, just build and run::
 
     docker build -t rsted .
