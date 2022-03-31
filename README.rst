@@ -1,12 +1,13 @@
-========================================================
+***************
 说明
-========================================================
-此项目是从 [rsted](https://github.com/anru/rsted) 库直接修改的，
+***************
+
+此项目是从 `rsted <https://github.com/anru/rsted>`_  库直接修改的，
 将原来的代码修改为 Pytonn3 版本
 
-```bash
-$ 2to3 --output-dir=/path/to/rsted3 -W -n /path/to/rsted2
-```
+.. code-block:: bash
+
+    $ 2to3 --output-dir=/path/to/rsted3 -W -n /path/to/rsted2
 
 ***************
 原来的 README
